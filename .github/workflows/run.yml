@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install playwright
+          pip install seleniumbase
           playwright install --with-deps
 
       - name: Run script
