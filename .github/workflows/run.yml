@@ -22,4 +22,4 @@ jobs:
           playwright install --with-deps
 
       - name: Run script
-        run: python run.py
+        run: python bypass.py
